@@ -17,8 +17,8 @@
 git clone https://github.com/chenyingzhou/deepin-wine-ubuntu.git
 cd deepin-wine-ubuntu
 ./install.sh
-# KDE环境若出现错误，则还需执行
-./KDE-install.sh
+# KDE环境若出现错误，参考https://github.com/wszqkzqk/deepin-wine-ubuntu
+# 我用KDE环境没有出现错误
 ```
 ### 关于托盘
 KDE桌面默认显示托盘，GNOME需要安装插件TopIcons Plus，可以去软件中心搜索安装
