@@ -24,10 +24,14 @@ cd deepin-wine-ubuntu
 KDE桌面默认显示托盘，GNOME需要安装插件TopIcons Plus，可以去软件中心搜索安装
 
 ### 软件包下载
-前往http://packages.deepin.com/deepin/pool/non-free/d/ 自行选择下载，下载后执行
+> packages目录是本人根据软件最新版打包，比deepin官方维护的新，可直接使用
+
+> 也可前往http://packages.deepin.com/deepin/pool/non-free/d/ 自行选择下载
+
+下载后执行
 ```shell
 # 以微信为例
-dpkg -i deepin.com.wechat_2.6.2.31deepin0_i386.deb
+dpkg -i deepin.com.wechat-2.6.7.57-20190424.deb
 ```
 
 ## 三、卸载
